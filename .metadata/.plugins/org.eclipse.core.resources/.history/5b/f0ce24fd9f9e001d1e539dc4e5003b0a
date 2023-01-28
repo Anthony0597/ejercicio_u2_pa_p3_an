@@ -1,0 +1,31 @@
+package com.example.demo.ejercicio2.service;
+
+import com.example.demo.ejercicio2.modelo.Automovil;
+
+public class AutomovilServiceImpl implements IAutomovilService {
+
+	@Override
+	public void guardar(Automovil automovil) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void modificar(Automovil automovil) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Automovil buscar(String placa) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void borrar(String placa) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

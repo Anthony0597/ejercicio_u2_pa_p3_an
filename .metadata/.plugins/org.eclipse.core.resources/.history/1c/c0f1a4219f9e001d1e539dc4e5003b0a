@@ -1,0 +1,31 @@
+package com.example.demo.ejercicio2.repo;
+
+import com.example.demo.ejercicio2.modelo.Renta;
+
+public class RentaRepoImpl implements IRentaRepo {
+
+	@Override
+	public void insertar(Renta renta) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Renta renta) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Renta buscar(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

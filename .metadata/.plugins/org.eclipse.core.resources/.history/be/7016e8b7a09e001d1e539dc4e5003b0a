@@ -1,0 +1,19 @@
+package com.example.demo.ejercicio2.service;
+
+import com.example.demo.ejercicio2.modelo.Pago;
+
+public class PagoServiceImpl implements IPagoService {
+
+	@Override
+	public void guardar(Pago pago) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Pago buscar(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.example.demo.ejercicio2.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.ejercicio2.modelo.Pago;
+import com.example.demo.ejercicio2.repo.IPagoRepo;
+
+@Service
+public class PagoServiceImpl implements IPagoService {
+
+	@Autowired
+	private IPagoRepo pagoRepo;
+	
+	@Override
+	public void guardar(Pago pago) {
+		// TODO Auto-generated method stub
+		this.pagoRepo.insertar(pago);
+	}
+
+	@Override
+	public Pago buscar(Integer id) {
+		// TODO Auto-generated method stub
+		return this.pagoRepo.buscar(id);
+	}
+
+	@Override
+	public Pago buscarNumT(Integer numeroTarjeta) {
+		// TODO Auto-generated method stub
+		return this.pagoRepo.buscarNumT(numeroTarjeta);
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.example.demo.ejercicio2.modelo;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "pago")
+public class Pago {
+	@Id
+	@Column(name = "pago_id")
+	private Integer id;
+	@Column(name = "pago_valor")
+	private BigDecimal valor;
+	@Column(name = "pago_nuemro_tarjeta")
+	private Integer numeroTarjeta;
+}

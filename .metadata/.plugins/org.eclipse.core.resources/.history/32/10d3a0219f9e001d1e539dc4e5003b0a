@@ -1,0 +1,31 @@
+package com.example.demo.ejercicio2.repo;
+
+import com.example.demo.ejercicio2.modelo.Cliente;
+
+public class ClienteRepoImpl implements IClienteRepo {
+
+	@Override
+	public void insertar(Cliente Cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Cliente Cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Cliente buscar(String cedula) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(String cedula) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.example.demo.ejercicio2.repo;
+
+import com.example.demo.ejercicio2.modelo.Automovil;
+
+public class AutomovilRepoImpl implements IAutomovilRepo {
+
+	@Override
+	public void insertar(Automovil automovil) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Automovil automovil) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Automovil buscar(String placa) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(String placa) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

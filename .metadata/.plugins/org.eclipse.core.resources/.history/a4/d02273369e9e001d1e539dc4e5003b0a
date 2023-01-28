@@ -1,0 +1,5 @@
+package com.example.demo.ejercicio2.repo;
+
+public interface IAutomovilRepo {
+
+}

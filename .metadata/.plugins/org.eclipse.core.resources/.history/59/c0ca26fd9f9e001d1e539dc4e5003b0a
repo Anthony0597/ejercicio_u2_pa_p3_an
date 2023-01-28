@@ -1,0 +1,10 @@
+package com.example.demo.ejercicio2.service;
+
+import com.example.demo.ejercicio2.modelo.Pago;
+
+public interface IPagoService {
+	public void insertar(Pago pago);
+	public void actualizar(Pago pago);
+	public Pago buscar(Integer id);
+	public void eliminar(Integer id);
+}

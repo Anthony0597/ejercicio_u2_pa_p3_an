@@ -1,0 +1,31 @@
+package com.example.demo.ejercicio2.repo;
+
+import com.example.demo.ejercicio2.modelo.Pago;
+
+public class PagoRepoImpl implements IPagoRepo {
+
+	@Override
+	public void insertar(Pago pago) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Pago pago) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Pago buscar(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
